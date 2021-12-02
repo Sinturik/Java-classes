@@ -23,10 +23,6 @@ public class Main {
         //задаю скорость поезда
         firstTrain.setSpeed(70);
 
-        //вывожу скорость поезда
-        System.out.println(firstTrain.getSpeed());
-        System.out.println(secondTrain.getSpeed());
-
         //задаю время движения второго поезда
         secondTrain.setTime(30);
 
@@ -68,8 +64,8 @@ public class Main {
         //вывести количество мест для первого вагона
         System.out.println(carriage1.numberSeats);
 
-        //проверить, к какому классу принадлежит объект
-        carriage1.sayClassName();
+        //вывести конечный пункт первого поезда
+        System.out.println(firstTrain.endPoint);
 
     }
 }
