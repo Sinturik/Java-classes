@@ -47,10 +47,6 @@ public class Train {
         this.speed = speed;
     }
 
-    public int getSpeed() {
-        return speed;
-    }
-
     //геттер и сеттер для time
     public void setTime(int time) {
         this.time = time;
@@ -84,5 +80,5 @@ public class Train {
         return distance;
     }
 
-
+    //тестовый комментарий
 }
