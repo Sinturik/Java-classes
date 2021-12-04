@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -71,5 +69,6 @@ public class Main {
         //проверить, к какому классу принадлежит объект
         carriage1.sayClassName();
 
+        System.out.println(ClassForLiza.getNewInformation());
     }
 }
